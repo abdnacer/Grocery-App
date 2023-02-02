@@ -12,7 +12,7 @@ const GetStarted = ({navigation}) => {
       <View style={styles.content_Started}>
         <Text style={styles.text_Content}>T9adya twselk tal bab dark</Text>
       </View>
-      <Gap height={20} />
+      <Gap height={25} />
       <Button text_btn="Get-Started" onPress={() => navigation.navigate('Home')} />
     </View>
   )
